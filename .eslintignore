@@ -1,0 +1,8 @@
+node_modules
+dist
+.expo
+.expo-shared
+web-build
+.history
+commitlint.config.js
+app.json
