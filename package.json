@@ -20,6 +20,8 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.9",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -37,6 +39,8 @@
     "prettier": "^2.8.4",
     "react": "18.2.0",
     "react-native": "0.71.3",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-screens": "~3.20.0",
     "styled-components": "^5.3.8"
   },
   "devDependencies": {
