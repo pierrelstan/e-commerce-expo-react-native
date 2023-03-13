@@ -14,9 +14,15 @@
     "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:jest/recommended",
-
+    "plugin:jest/recommended"
   ],
+  // "testing-library/consistent-data-testid": [
+  //   2,
+  //   {
+  //     "testIdAttribute": ["testID"],
+  //     "testIdPattern": "^TestId(__[A-Z]*)?$"
+  //   }
+  // ],
   "rules": {
     "no-console": 1,
     "prettier/prettier": 2,

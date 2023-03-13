@@ -1,13 +1,13 @@
 import React from "react";
-import { Button, Container, Img, Text, WrapperText } from "../styles/styles";
+import * as S from "../styles/styles";
 
 function SplashScreen({ navigation }: any) {
   return (
-    <Container>
-      <WrapperText>
-        <Text>Find your Gadget</Text>
-      </WrapperText>
-      <Img
+    <S.Container>
+      <S.WrapperText>
+        <S.Text>Find your Gadget</S.Text>
+      </S.WrapperText>
+      <S.Img
         alt="splash"
         source={require("../assets/Saly-19.png")}
         style={{
@@ -15,14 +15,22 @@ function SplashScreen({ navigation }: any) {
         }}
       />
 
-      <Button
+      {/* <S.Button
         onPress={() => {
           navigation.navigate("Login");
         }}
       >
         Get started
-      </Button>
-    </Container>
+      </S.Button> */}
+      <S.CustomButton
+        color={"#fff"}
+        onPress={() => {
+          navigation.navigate("Login");
+        }}
+      >
+        <S.ButtonText color={"#5a56e9"}>Get started</S.ButtonText>
+      </S.CustomButton>
+    </S.Container>
   );
 }
 
