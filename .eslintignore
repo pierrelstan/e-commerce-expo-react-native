@@ -6,3 +6,4 @@ web-build
 .history
 commitlint.config.js
 app.json
+.eslintcache
