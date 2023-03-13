@@ -18,3 +18,6 @@ web-build/
 
 # history
 .history
+
+#eslintcache
+.eslintcache
