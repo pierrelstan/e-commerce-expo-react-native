@@ -1,5 +1,6 @@
 import * as React from "react";
 import { ThemeProvider } from "styled-components/native";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { ApolloProvider, useQuery, gql } from "@apollo/client";
 import client from "./AppolloConfiguration";
 import StackNavigation from "./Navigations/Stack/stack";
